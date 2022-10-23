@@ -1,0 +1,29 @@
+
+
+
+#title{
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    float: none;
+    color: rgb(177, 214, 190);
+}
+
+.topnav a {
+    color: rgb(177, 214, 190);
+    text-align: center;
+    text-underline: none;
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    float: none;
+
+}
+
+
+
+.topnav {
+    font-family: sans-serif;
+}
+
+
