@@ -36,4 +36,3 @@ pineapple,food/pineapple/Image_5.jpg
 tomato,food/tomato/Image_3.jpg
 orange,food/orange/Image_3.jpg
 carrot,food/carrot/Image_2.jpg
-
