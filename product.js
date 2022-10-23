@@ -51,6 +51,7 @@ $(document).ready(async function () {
     //set up everything for all the foods
     for (let i = 0; i < 36; i++) {
         cart.push(0);
+        console.log(1);
         //set up the add the cart buttons
         $("#minus" + i.toString()).hide();
         $("#plus" + i.toString()).hide();
