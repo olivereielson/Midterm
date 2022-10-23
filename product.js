@@ -50,8 +50,6 @@ $(document).ready(async function () {
 
     });
     console.log("cart food");
-
-
     //set up everything for all the foods
     for (let i = 0; i < 36; i++) {
         cart.push(0);
