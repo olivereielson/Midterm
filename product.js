@@ -32,9 +32,11 @@ async function get_food_data() {
 }
 
 $(document).ready(async function () {
+    console.log("herer");
 
 
    await get_food_data();
+    console.log("got food");
 
    //add listener to cart
     $("span[class=cart]").click(function (){
@@ -47,6 +49,8 @@ $(document).ready(async function () {
         }
 
     });
+    console.log("cart food");
+
 
     //set up everything for all the foods
     for (let i = 0; i < 36; i++) {
