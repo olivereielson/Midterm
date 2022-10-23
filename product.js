@@ -21,7 +21,7 @@ function total(){
 
 async function get_food_data() {
     //async function to get food names from file
-    await $.get('/food.txt', function (data) {
+    await $.get('food.txt', function (data) {
         let lines = data.split('\n');
         for (let i = 2; i < lines.length; i++) {
             let word = lines[i].split(',');
