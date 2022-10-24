@@ -1,0 +1,69 @@
+
+body {
+    font-family: sans-serif;
+}
+
+
+.main {
+
+    margin: 50px;
+    height: 600px;
+    border-radius: 25px;
+    overflow: scroll;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    color: rgb(177, 214, 190);
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    color: rgb(50, 50, 50);
+}
+
+h5 {
+    color: rgb(177, 214, 190);
+    font-size: 15px;
+    margin: 50px;
+}
+
+p {
+    color: rgb(202, 202, 202);
+}
+
+input[value="Accept"] {
+    background-color: rgb(177, 214, 190);
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 40px;
+}
+
+input[value="Reject"] {
+    background-color: white;
+    border-radius: 10px;
+    border: 4px solid rgb(177, 214, 190);
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 40px;
+}
+
+input[value="Reject"]:hover {
+    border: 4px solid rgb(177, 255, 190);
+
+}
+
+input[value="Accept"]:hover {
+    background-color: rgb(177, 255, 190);
+}
+
+#buttons {
+    text-align: center;
+}
+
