@@ -1,4 +1,5 @@
 name,path
+name,path
 apple,food/apple/Image_1.jpg
 turnip,food/turnip/Image_7.jpg
 chilli pepper,food/chilli pepper/Image_1.jpg

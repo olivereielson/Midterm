@@ -9,16 +9,18 @@
     <title>Shop</title>
     <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/menu_phone.css"/>
     <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/menu.css"/>
+    <script src="https://kit.fontawesome.com/f1c50d18a2.js" crossorigin="anonymous"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index.css">
     <style>
         body {
             font-family: sans-serif;
             background-color: white;
-
         }
-        img{
+
+
+        img {
             border-radius: 25px;
             display: block;
             margin-left: auto;
@@ -26,6 +28,7 @@
             width: 150px;
             height: 150px;
             object-fit: cover;
+            margin-top: 20px;
 
         }
 
@@ -42,7 +45,7 @@
 
         h3 {
             padding-left: 10px;
-            display: block;
+            display: inline;
 
         }
 
@@ -51,78 +54,88 @@
             color: grey;
             float: left;
             display: inline-block;
-            margin-top:50px;
+            margin-top: 50px;
         }
-        i{
+
+        i {
             background-color: black;
             display: inline;
             float: right;
             margin-right: 0px;
+
             padding: 5px;
             border-radius: 25px;
             size: 5px;
         }
-        .grid{
+
+        .grid {
             display: block;
             grid-gap: 3px;
             align-items: center;
             text-align: center;
         }
-        .add{
+
+        .add {
             background-color: black;
             border-radius: 25px;
             padding: 5px;
             display: inline;
             float: right;
             margin-top: 40px;
-            margin-right:20px;
+            margin-right: 20px;
 
         }
-       i~h3{
+
+        i ~ h3 {
             display: inline;
             font-size: 20px;
-           float: right;
-           padding: 0px;
-           margin: 0;
-           text-align: center;
+            float: right;
+            padding: 0px;
+            margin: 0;
+            text-align: center;
 
-       }
-       #cart_icon{
-           display: inline;
-           width: 20px;
-           height: 20px;
-           border-radius: 0;
-           margin: 0;
-           color: white;
-       }
-       h1{
-           display: inline-block;
-           font-size: 20px;
-           text-align: center;
-           color: grey;
-       }
-       h2{
-           margin: 10px;
-           display: inline-block;
+        }
 
-       }
-       .cart{
-           background-color: rgb(177, 214, 190);
-           color: white;
-           border-radius: 25px;
-           display: inline;
-           width: 100px;
-           margin-right: 20px;
-           float: right;
-           text-align: center;
+        #cart_icon {
+            display: inline;
+            width: 20px;
+            height: 20px;
+            border-radius: 0;
+            margin: 0;
+            color: white;
+        }
 
-       }
+        h1 {
+            display: inline-block;
+            font-size: 20px;
+            text-align: center;
+            color: grey;
+        }
+
+        h2 {
+            margin: 10px;
+            display: inline-block;
+
+        }
+
+        .cart {
+            background-color: rgb(177, 214, 190);
+            color: white;
+            border-radius: 25px;
+            display: inline;
+            width: 100px;
+            margin-right: 20px;
+            float: right;
+            text-align: center;
+
+        }
 
     </style>
 
 
     <div class="topnav">
-        <a id="title" href="index.html" ><img src="Images/logo.png"><h2> Equal Foods </h2></a>
+        <a id="title" href="index.html"><img src="Images/logo.png">
+            <h2> Equal Foods </h2></a>
         <a href="index.html">Home</a>
         <a href="Product_Page.html">Shop</a>
         <a href="about.html">About</a>
@@ -146,9 +159,13 @@
 
     <script>
         for (let i = 0; i < 36; i++) {
-            document.writeln("<div class=\"listing\"><h3 id='Title"+i.toString()+"'></h3> " +
-                "<img id='img"+i.toString()+"'src=\"food/apple/Image_1.jpg\">" +
-                "<h4 id='price"+i.toString()+"'>$20.20</h4> <div class='add'>  <i id='plus"+i.toString()+"'class='fas fa-plus'></i> <i id='button"+i.toString()+"' class='fas fa-check'></i><h3 id='number"+i.toString()+"'>he</h3><i id='minus"+i.toString()+"' class='fas fa-minus'></i> </div> </div>"
+            document.writeln("<div class=\"listing\"><h3 id='Title" + i.toString() + "'></h3> " +
+                "<img id='img" + i.toString() + "'src=\"food/apple/Image_1.jpg\">" +
+                "<h4 id='price" + i.toString() + "'>$20.20</h4> <div class='add'>  " +
+                "<i id='plus" + i.toString() + "'class='fas fa-plus'></i> " +
+                "<i id='button" + i.toString() + "' class='fas fa-check'></i>" +
+                "<h3 id='number" + i.toString() + "'>he</h3>" +
+                "<i id='minus" + i.toString() + "' class='fas fa-minus'></i> </div> </div>"
             );
         }
     </script>
